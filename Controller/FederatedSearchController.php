@@ -33,7 +33,7 @@ use AstrX\News\NewsPermission;
  *
  * The page is seeded with file_name 'federated_search' so the reflection router
  * resolves it to THIS class (str_replace('_','',ucwords('federated_search','_'))
- * . 'Controller'); its URL slug is WORDING_FEDSEARCH ('search-all'). This is a
+ * 'Controller'); its URL slug is WORDING_FEDSEARCH ('search-all'). This is a
  * SEPARATE page from the internal site search ('search') and the three dedicated
  * suite search pages; it aggregates them without replacing any. Public: gated by
  * NEWS_VIEW (granted to guests), exactly like the sibling search pages.
