@@ -2,6 +2,8 @@
 
 Federated search across site content and the astrx-suite engines — the **Federated search** module of [AstrX](https://github.com/Vxmdzhb/astrx).
 
+![One search box, with a tab per engine](docs/screenshot.png)
+
 - Module key: `fedsearch` (switch it on in the site's `resources/config/Modules.config.php`)
 - Pages: `federated_search`
 - Requires: `astrx/cms`, `astrx/framework`, `astrx/library`, `astrx/module-search`
