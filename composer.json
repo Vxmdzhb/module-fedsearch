@@ -1,6 +1,7 @@
 {
     "name": "astrx/module-fedsearch",
     "description": "Federated search across site content and the astrx-suite engines",
+    "license": "LicenseRef-DoWhatever",
     "type": "astrx-module",
     "keywords": [
         "astrx",
