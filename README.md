@@ -1,5 +1,19 @@
 # astrx/module-fedsearch
 
+> **Retired.** Its job now belongs to the site's one Search page
+> ([module-search](https://github.com/Vxmdzhb/module-search)): the engine
+> modules ([module-websearch](https://github.com/Vxmdzhb/module-websearch),
+> [module-onionsearch](https://github.com/Vxmdzhb/module-onionsearch),
+> [module-torrentsearch](https://github.com/Vxmdzhb/module-torrentsearch))
+> each add a tab there. [AstrX](https://github.com/Vxmdzhb/astrx) no longer
+> installs this module, and its update removes the "Search all" page. This
+> repository is kept, read-only, for the history.
+>
+> To move a site off it: remove `astrx/module-fedsearch` from `composer.json`
+> `FederatedSearchModule` from `ApplicationModules::INSTALLED` and `fedsearch`
+> from `Modules.config.php`, then run
+> `php tools/install.php --schema-only`.
+
 Federated search across site content and the astrx-suite engines — the **Federated search** module of [AstrX](https://github.com/Vxmdzhb/astrx).
 
 ![One search box, with a tab per engine](docs/screenshot.png)
